@@ -6,7 +6,7 @@ Collection of scripts tackling various statistics in Diablo 3
 
 ### primals
 
-Visualizing chances of getting primal items
+Visualizing what are your chances of obtaining primal items
 
 ## Reading
 
