@@ -354,14 +354,14 @@ no_players &lt;- 4
 group_success &lt;- ind_success ^ no_players
 </code></pre>
 
-<p>This so far, applies to one particular player (although some random people helped with split bounties). But, since split farming is done in 4 man teams, we can content with just a .2f% chance of success for any particular player, and get roughly .2f% success rate for this group (same principle as with reforging single items applies here). In order to get here, every player from the group needs to do 916 reforges on every item in every slot.</p>
+<p>This so far, applies to one particular player (although some random people helped with split bounties). But, since split farming is done in 4 man teams, we can content with just a 25.00% chance of success for any particular player, and get roughly 0.39% success rate for this group (same principle as with reforging single items applies here). In order to get here, every player from the group needs to do 916 reforges on every item in every slot.</p>
 
 <pre><code class="r">bounties_needed_4 = count_bounty_runs(13 * p2_min_25)
 bounty_time_hours_4 = bounty_time_h (bounties_needed_4)
 bounty_time_days_4 = bounty_time_d (bounties_needed_4)
 </code></pre>
 
-<p>** Conclusion 2: A group of 4 players, would need to spend 226 hours doing bounty runs. At the end of this time, the group would have .2f% chance of at least one of the players getting full primal set. **</p>
+<p>** Conclusion 2: A group of 4 players, would need to spend 226 hours doing bounty runs. At the end of this time, the group would have 0.39% chance of at least one of the players getting full primal set. **</p>
 
 <p>This certainly looks possible, but for now, we only took into account <em>any</em> primal. Most primal items you get are not perfect, in fact, even if you get the helmet you need, there is a chance the ancient one you already have is better, just because of the primary and secondary stats on it. So let&#39;s check how we fare if we take item quality into account.</p>
 
