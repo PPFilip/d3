@@ -1,3 +1,0 @@
-out/* linguist-vendored
-*.Rmd linguist-language=R
-*.Rproj linguist-language=R
